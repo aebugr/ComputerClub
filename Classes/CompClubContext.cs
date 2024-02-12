@@ -8,5 +8,6 @@ namespace ComputerClubBugrina.Classes
 {
     class CompClubContext
     {
+
     }
 }
