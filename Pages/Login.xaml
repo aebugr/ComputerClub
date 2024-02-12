@@ -1,0 +1,18 @@
+﻿<Page x:Class="ComputerClubBugrina.Pages.Login"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ComputerClubBugrina.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Login">
+
+    <Grid Background="#181845">
+        <Label Content="Добро пожаловать ! " FontSize="22" Foreground="#dad3e9" HorizontalAlignment="Center" Margin="299,10,279,0" VerticalAlignment="Top"/>
+        <Label Content="Зайти под именем:" FontSize="18" Foreground="#dad3e9" HorizontalAlignment="Center" Margin="325,107,308,0" VerticalAlignment="Top"/>
+        <Button Content="Вход для сотрудников" Foreground="#271e3b" Background="#dad3e9" FontSize="16" HorizontalAlignment="Left" Margin="299,190,0,0" VerticalAlignment="Top" Width="222" Height="39"/>
+        <Button Content="Вход для посетителей" Foreground="#271e3b" Background="#dad3e9" FontSize="16" HorizontalAlignment="Left" Margin="299,268,0,0" VerticalAlignment="Top" Width="222" Height="42"/>
+
+    </Grid>
+</Page>
