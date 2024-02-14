@@ -1,4 +1,5 @@
-﻿using ComputerClubBugrina.Classes.Data;
+﻿using ComputerClubBugrina.Classes;
+using ComputerClubBugrina.Classes.Data;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -31,6 +32,13 @@ namespace ComputerClubBugrina.Pages.Main
             rentalData = new RentalData();
             LoadRentalData();
             DataContext = this;
+            if (!UserInfo.IsAdmin)
+            {
+                AddButton.Visibility = Visibility.Collapsed;
+                UpdateButton.Visibility = Visibility.Collapsed;
+                DeleteButton.Visibility = Visibility.Collapsed;
+                SortButton.Visibility = Visibility.Collapsed;
+            }
         }
         public void LoadRentalData()
         {

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ComputerClubBugrina.Classes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,12 +28,14 @@ namespace ComputerClubBugrina.Pages
 
         private void AdminClick(object sender, RoutedEventArgs e)
         {
+            UserInfo.IsAdmin = true;
             NavigationService.Navigate(new Pages.MainComputerClub());
         }
 
         private void EmployeesClick(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Pages.Main.MainComputerRental());
+            UserInfo.IsAdmin = false;
+            NavigationService.Navigate(new Pages.MainComputerClub());
         }
     }
 }

@@ -60,9 +60,9 @@ namespace ComputerClubBugrina.Pages.Add
                 MessageBox.Show("Поле с временем работы пустое");
                 return;
             }
-            if (!Regex.IsMatch(name.Text, @"^[a-zA-Zа-яА-Я]+$"))
+            if (!Regex.IsMatch(name.Text, @"^[a-zA-Zа-яА-Я0-9\s\-']+$"))
             {
-                MessageBox.Show("Проверьте введёное наименование на корректность. \n Допускаются только буквы.");
+                MessageBox.Show("Проверьте введёное наименование на корректность. \n Допускаются только буквы, цифры, пробелы, дефисы и апострофы.");
                 return;
             }
             if (!Regex.IsMatch(address.Text, @"^[а-яА-Я0-9\s]+$"))

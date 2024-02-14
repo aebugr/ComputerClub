@@ -55,14 +55,14 @@ namespace ComputerClubBugrina.Pages.Add
                 MessageBox.Show("Поле с датой и временем аренды пустое");
                 return;
             }
-            if (!Regex.IsMatch(fioclient.Text, @"^[a-zA-Zа-яА-Я]+$"))
+            if (!Regex.IsMatch(fioclient.Text, @"^[a-zA-Zа-яА-Я0-9\s\-']+$"))
             {
-                MessageBox.Show("Проверьте введёное наименование на корректность. \n Допускаются только буквы.");
+                MessageBox.Show("Проверьте введёное ФИО на корректность. \n Допускаются только буквы.");
                 return;
             }
-            if (!Regex.IsMatch(reservationdatetime.Text, @"^([01]?[0-9]|2[0-3]):[0-5][0-9] - ([01]?[0-9]|2[0-3]):[0-5][0-9]$"))
+            if (!Regex.IsMatch(reservationdatetime.Text, @"^\d{4}-[01]?\d-[0-3]?\d [0-2]?\d:[0-5]?\d:[0-5]?\d$"))
             {
-                MessageBox.Show("Проверьте введённую дату на корректность. \n Допускаются только цифры.");
+                MessageBox.Show("Проверьте введённую дату и время на корректность. \n Формат должен быть YYYY-MM-DD HH:MM:SS.");
                 return;
             }
             if (rentalToUpdate.Id != 0)

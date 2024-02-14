@@ -123,6 +123,7 @@
     <Compile Include="Classes\CompRentContext.cs" />
     <Compile Include="Classes\Data\ClubData.cs" />
     <Compile Include="Classes\Data\RentalData.cs" />
+    <Compile Include="Classes\UserInfo.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>

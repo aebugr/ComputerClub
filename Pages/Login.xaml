@@ -13,6 +13,5 @@
         <Label Content="Зайти под именем:" FontSize="18" Foreground="#dad3e9" HorizontalAlignment="Center" Margin="0,65,0,0" VerticalAlignment="Top" Width="176"/>
         <Button Content="Вход для администраторов" Click="AdminClick" Foreground="#271e3b" Background="#dad3e9" FontSize="16" HorizontalAlignment="Center" Margin="0,125,0,0" VerticalAlignment="Top" Width="222" Height="39"/>
         <Button Content="Вход для сотрудников" Click="EmployeesClick" Foreground="#271e3b" Background="#dad3e9" FontSize="16" HorizontalAlignment="Center" Margin="0,183,0,0" VerticalAlignment="Top" Width="222" Height="42"/>
-
     </Grid>
 </Page>

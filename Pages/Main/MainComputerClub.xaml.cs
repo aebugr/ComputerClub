@@ -1,4 +1,5 @@
-﻿using ComputerClubBugrina.Classes.Data;
+﻿using ComputerClubBugrina.Classes;
+using ComputerClubBugrina.Classes.Data;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -31,6 +32,13 @@ namespace ComputerClubBugrina.Pages
             clubData = new ClubData();
             LoadClubData();
             DataContext = this;
+            if (!UserInfo.IsAdmin)
+            {
+                AddButton.Visibility = Visibility.Collapsed;
+                UpdateButton.Visibility = Visibility.Collapsed;
+                DeleteButton.Visibility = Visibility.Collapsed;
+                SortButton.Visibility = Visibility.Collapsed;
+            }
         }
         public void LoadClubData()
         {
@@ -39,7 +47,7 @@ namespace ComputerClubBugrina.Pages
         }
         private void AddClubClick(object sender, RoutedEventArgs e)
         {
- Models.ComputerClub newClub = new Models.ComputerClub();
+            Models.ComputerClub newClub = new Models.ComputerClub();
             NavigationService.Navigate(new Pages.Add.AddComputerClub(newClub));           
         }
 

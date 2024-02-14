@@ -21,9 +21,9 @@
         </ListView>
         <Button Content="Выйти" Click="ExitClick" HorizontalAlignment="Right" Margin="0,10,10,0" VerticalAlignment="Top" Height="30" Width="99"/>
         <Button Content="Клубы" Click="GoClubClick" HorizontalAlignment="Right" Margin="0,56,10,0" VerticalAlignment="Top" Height="30" Width="99"/>
-        <Button Content="Добавить" Click="AddRentalClick" HorizontalAlignment="Left" Margin="10,0,0,10" VerticalAlignment="Bottom" Height="30" Width="99"/>
-        <Button Content="Изменить" Click="UpdateRentalClick" HorizontalAlignment="Left" Margin="132,0,0,10" VerticalAlignment="Bottom" Height="30" Width="98"/>
-        <Button Content="Удалить" Click="DeleteRentalClick" HorizontalAlignment="Left" Margin="248,0,0,10" VerticalAlignment="Bottom" Height="30" Width="100"/>
-        <Button Content="Сортировка" Click="SortRentalClick" HorizontalAlignment="Left" Margin="691,0,0,10" VerticalAlignment="Bottom" Height="30" Width="99"/>
+        <Button x:Name="AddButton" Content="Добавить" Click="AddRentalClick" HorizontalAlignment="Left" Margin="10,0,0,10" VerticalAlignment="Bottom" Height="30" Width="99"/>
+        <Button x:Name="UpdateButton" Content="Изменить" Click="UpdateRentalClick" HorizontalAlignment="Left" Margin="132,0,0,10" VerticalAlignment="Bottom" Height="30" Width="98"/>
+        <Button x:Name="DeleteButton" Content="Удалить" Click="DeleteRentalClick" HorizontalAlignment="Left" Margin="248,0,0,10" VerticalAlignment="Bottom" Height="30" Width="100"/>
+        <Button x:Name="SortButton" Content="Сортировка" Click="SortRentalClick" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Height="30" Width="99"/>
     </Grid>
 </Page>
