@@ -20,11 +20,11 @@
                 </GridView>
             </ListView.View>
         </ListView>
-        <Button Content="Выйти" Click="ExitClick" HorizontalAlignment="Left" Margin="691,10,0,0" VerticalAlignment="Top" Height="30" Width="99"/>
-        <Button Content="Аренда" Click="GoRentalClick" HorizontalAlignment="Left" Margin="691,56,0,0" VerticalAlignment="Top" Height="30" Width="99"/>
-        <Button Content="Добавить" Click="AddClubClick" HorizontalAlignment="Left" Margin="10,410,0,0" VerticalAlignment="Top" Height="30" Width="99"/>
-        <Button Content="Изменить" Click="UpdateClubClick" HorizontalAlignment="Left" Margin="132,410,0,0" VerticalAlignment="Top" Height="30" Width="98"/>
-        <Button Content="Удалить" Click="DeleteClubClick" HorizontalAlignment="Left" Margin="248,410,0,0" VerticalAlignment="Top" Height="30" Width="100"/>
-        <Button Content="Сортировка" Click="SortClubClick" HorizontalAlignment="Left" Margin="691,410,0,0" VerticalAlignment="Top" Height="30" Width="99"/>
+        <Button Content="Выйти" Click="ExitClick" HorizontalAlignment="Right" Margin="0,10,10,0" VerticalAlignment="Top" Height="30" Width="99"/>
+        <Button Content="Аренда" Click="GoRentalClick" HorizontalAlignment="Right" Margin="0,56,10,0" VerticalAlignment="Top" Height="30" Width="99"/>
+        <Button Content="Добавить" Click="AddClubClick" HorizontalAlignment="Left" Margin="10,0,0,10" VerticalAlignment="Bottom" Height="30" Width="99"/>
+        <Button Content="Изменить" Click="UpdateClubClick" HorizontalAlignment="Left" Margin="132,0,0,10" VerticalAlignment="Bottom" Height="30" Width="98"/>
+        <Button Content="Удалить" Click="DeleteClubClick" HorizontalAlignment="Left" Margin="248,0,0,10" VerticalAlignment="Bottom" Height="30" Width="100"/>
+        <Button Content="Сортировка" Click="SortClubClick" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Height="30" Width="99"/>
     </Grid>
 </Page>

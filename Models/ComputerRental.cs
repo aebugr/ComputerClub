@@ -17,5 +17,9 @@ namespace ComputerClubBugrina.Models
             this.FioClient = FioClient;
             this.ReservationDateTime = ReservationDateTime;
         }
+
+        public ComputerRental()
+        {
+        }
     }
 }

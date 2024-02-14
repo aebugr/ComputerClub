@@ -10,9 +10,9 @@
 
     <Grid Background="#181845">
         <Label Content="Добро пожаловать ! " FontSize="22" Foreground="#dad3e9" HorizontalAlignment="Center" Margin="299,10,279,0" VerticalAlignment="Top"/>
-        <Label Content="Зайти под именем:" FontSize="18" Foreground="#dad3e9" HorizontalAlignment="Center" Margin="325,107,308,0" VerticalAlignment="Top"/>
-        <Button Content="Вход для администраторов" Click="AdminClick" Foreground="#271e3b" Background="#dad3e9" FontSize="16" HorizontalAlignment="Left" Margin="299,190,0,0" VerticalAlignment="Top" Width="222" Height="39"/>
-        <Button Content="Вход для сотрудников" Click="EmployeesClick" Foreground="#271e3b" Background="#dad3e9" FontSize="16" HorizontalAlignment="Left" Margin="299,268,0,0" VerticalAlignment="Top" Width="222" Height="42"/>
+        <Label Content="Зайти под именем:" FontSize="18" Foreground="#dad3e9" HorizontalAlignment="Center" Margin="0,65,0,0" VerticalAlignment="Top" Width="176"/>
+        <Button Content="Вход для администраторов" Click="AdminClick" Foreground="#271e3b" Background="#dad3e9" FontSize="16" HorizontalAlignment="Center" Margin="0,125,0,0" VerticalAlignment="Top" Width="222" Height="39"/>
+        <Button Content="Вход для сотрудников" Click="EmployeesClick" Foreground="#271e3b" Background="#dad3e9" FontSize="16" HorizontalAlignment="Center" Margin="0,183,0,0" VerticalAlignment="Top" Width="222" Height="42"/>
 
     </Grid>
 </Page>

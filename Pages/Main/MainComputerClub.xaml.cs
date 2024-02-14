@@ -39,8 +39,8 @@ namespace ComputerClubBugrina.Pages
         }
         private void AddClubClick(object sender, RoutedEventArgs e)
         {
-            Models.ComputerClub newClub = new Models.ComputerClub();
-            NavigationService.Navigate(new Pages.Add.AddComputerClub(newClub));
+ Models.ComputerClub newClub = new Models.ComputerClub();
+            NavigationService.Navigate(new Pages.Add.AddComputerClub(newClub));           
         }
 
         private void UpdateClubClick(object sender, RoutedEventArgs e)

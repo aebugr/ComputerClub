@@ -8,7 +8,15 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="AddComputerRental">
 
-    <Grid>
-        
+
+    <Grid Background="#181845">
+        <Label Content="Добавление аренды игровых комп-ов" x:Name="addLbl" FontSize="22" Foreground="#dad3e9" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,4,0,0"/>
+        <Label Content="Введите ФИО Клиента :" FontSize="18" Foreground="#dad3e9" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,46,0,0"/>
+        <Label Content="Введите дату и время аренды : " FontSize="18" Foreground="#dad3e9" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,125,0,0"/>
+        <TextBox x:Name="fioclient" HorizontalAlignment="Center" Margin="0,85,0,0" VerticalAlignment="Top" Width="364" Height="40"/>
+        <TextBox x:Name="reservationdatetime" HorizontalAlignment="Center" Margin="0,185,0,0" VerticalAlignment="Top" Width="364" Height="40"/>
+        <Button Content="Добавить" x:Name="addBtn" Click="InsertClick" Background="#FFE87575" Foreground="White" FontSize="15" HorizontalAlignment="Center" VerticalAlignment="Top" Height="42" Width="364" Margin="0,238,0,0"/>
+        <Button Content="Вернуться" Click="BackClick" Background="#FFE87575" Foreground="White" FontSize="15" HorizontalAlignment="Center" Margin="0,295,0,0" VerticalAlignment="Top" Height="41" Width="364"/>
+        <Label Content="*Формат ввода - yyyy.mm.dd HH:MM" FontSize="12" HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="#FFE87575" Margin="0,154,0,0"/>
     </Grid>
 </Page>
