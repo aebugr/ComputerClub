@@ -24,5 +24,34 @@ namespace ComputerClubBugrina.Pages.Main
         {
             InitializeComponent();
         }
+        private void AddRentalClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void UpdateRentalClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void DeleteRentalClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void SortRentalClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void GoClubClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ExitClick(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

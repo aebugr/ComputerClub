@@ -16,7 +16,7 @@ namespace ComputerClubBugrina.Classes
         {
             List<CompRentContext> list = new List<CompRentContext>();
             MySqlConnection connection = Common.Connection.OpenConnection();
-            MySqlDataReader query = Common.Connection.Query("SELECT * FROM compclub.clubs", connection);
+            MySqlDataReader query = Common.Connection.Query("SELECT * FROM compclub.rental", connection);
             while (query.Read())
             {
                 list.Add(new CompRentContext(

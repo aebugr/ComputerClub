@@ -11,13 +11,17 @@ namespace ComputerClubBugrina.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public string Address { get; set; }
-        public DateTime WorkTime { get; set; }
-        public ComputerClub(int Id, string Name, string Address, DateTime WorkTime)
+        public string WorkTime { get; set; }
+        public ComputerClub(int Id, string Name, string Address, string WorkTime)
         {
             this.Id = Id;
             this.Name = Name;
             this.Address = Address;
             this.WorkTime = WorkTime;
+        }
+
+        public ComputerClub()
+        {
         }
     }
 }

@@ -8,7 +8,23 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="MainComputerClub">
 
-    <Grid>
-        
+    <Grid Background="#181845">
+        <Label Content="Компьютерный клуб" FontSize="22" Foreground="#dad3e9" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,36,0,0"/>
+        <Image Source="/Images/PicturePR28.png" HorizontalAlignment="Left" Height="104" VerticalAlignment="Top" Width="108"/>
+        <ListView x:Name="CCListView" Margin="10,109,10,56" Grid.Row="0">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Наименование" DisplayMemberBinding="{Binding name}" Width="300"/>
+                    <GridViewColumn Header="Адрес" DisplayMemberBinding="{Binding address}" Width="200"/>
+                    <GridViewColumn Header="Дата и время" DisplayMemberBinding="{Binding worktime}" Width="300"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button Content="Выйти" Click="ExitClick" HorizontalAlignment="Left" Margin="691,10,0,0" VerticalAlignment="Top" Height="30" Width="99"/>
+        <Button Content="Аренда" Click="GoRentalClick" HorizontalAlignment="Left" Margin="691,56,0,0" VerticalAlignment="Top" Height="30" Width="99"/>
+        <Button Content="Добавить" Click="AddClubClick" HorizontalAlignment="Left" Margin="10,410,0,0" VerticalAlignment="Top" Height="30" Width="99"/>
+        <Button Content="Изменить" Click="UpdateClubClick" HorizontalAlignment="Left" Margin="132,410,0,0" VerticalAlignment="Top" Height="30" Width="98"/>
+        <Button Content="Удалить" Click="DeleteClubClick" HorizontalAlignment="Left" Margin="248,410,0,0" VerticalAlignment="Top" Height="30" Width="100"/>
+        <Button Content="Сортировка" Click="SortClubClick" HorizontalAlignment="Left" Margin="691,410,0,0" VerticalAlignment="Top" Height="30" Width="99"/>
     </Grid>
 </Page>

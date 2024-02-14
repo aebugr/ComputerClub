@@ -10,7 +10,7 @@ namespace ComputerClubBugrina.Classes
 {
     public class CompClubContext : Models.ComputerClub
     {
-        public CompClubContext(int Id, string Name, string Address, DateTime WorkTime) 
+        public CompClubContext(int Id, string Name, string Address, string WorkTime) 
             : base(Id, Name, Address, WorkTime)
         { }
         public static List<CompClubContext> AllCC()
@@ -24,7 +24,7 @@ namespace ComputerClubBugrina.Classes
                     query.GetInt32(0),
                     query.GetString(1),
                     query.GetString(2),
-                    query.GetDateTime(3)));
+                    query.GetString(3)));
             }
             connection.Close();
             MySqlConnection.ClearPool(connection);

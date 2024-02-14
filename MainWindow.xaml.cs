@@ -20,12 +20,12 @@ namespace ComputerClubBugrina
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow init;
+        public static MainWindow init;
         public MainWindow()
         {
             InitializeComponent();
             init = this;
-            OpenPages(new Pages.Add.AddComputerClub());
+            OpenPages(new Pages.Login());
         }
         public void OpenPages(Page Page)
         {

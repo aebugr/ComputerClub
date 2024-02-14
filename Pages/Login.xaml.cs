@@ -24,5 +24,15 @@ namespace ComputerClubBugrina.Pages
         {
             InitializeComponent();
         }
+
+        private void AdminClick(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Pages.MainComputerClub());
+        }
+
+        private void EmployeesClick(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Pages.Main.MainComputerRental());
+        }
     }
 }

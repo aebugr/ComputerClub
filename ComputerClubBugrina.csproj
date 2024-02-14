@@ -121,6 +121,8 @@
     <Compile Include="Classes\Common\Connection.cs" />
     <Compile Include="Classes\CompClubContext.cs" />
     <Compile Include="Classes\CompRentContext.cs" />
+    <Compile Include="Classes\Data\ClubData.cs" />
+    <Compile Include="Classes\Data\RentalData.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
