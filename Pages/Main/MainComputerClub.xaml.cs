@@ -76,7 +76,7 @@ namespace ComputerClubBugrina.Pages
 
         private void SortClubClick(object sender, RoutedEventArgs e)
         {
-            //MainWindow.init.OpenPages(new Pages.Sort());
+            MainWindow.init.OpenPages(new Pages.Sort.SortClub());
         }
 
         private void ExitClick(object sender, RoutedEventArgs e)

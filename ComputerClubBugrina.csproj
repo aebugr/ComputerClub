@@ -147,6 +147,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\Sort\SortClub.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Sort\SortRental.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\ComputerClub.cs" />
@@ -165,6 +173,12 @@
     </Compile>
     <Compile Include="Pages\Main\MainComputerRental.xaml.cs">
       <DependentUpon>MainComputerRental.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Sort\SortClub.xaml.cs">
+      <DependentUpon>SortClub.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Sort\SortRental.xaml.cs">
+      <DependentUpon>SortRental.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>

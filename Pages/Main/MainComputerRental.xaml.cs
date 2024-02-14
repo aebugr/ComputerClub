@@ -75,7 +75,7 @@ namespace ComputerClubBugrina.Pages.Main
 
         private void SortRentalClick(object sender, RoutedEventArgs e)
         {
-            //MainWindow.init.OpenPages(new Pages.Sort());
+            MainWindow.init.OpenPages(new Pages.Sort.SortRental());
         }
 
         private void GoClubClick(object sender, RoutedEventArgs e)

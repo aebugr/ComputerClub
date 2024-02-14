@@ -60,9 +60,9 @@ namespace ComputerClubBugrina.Pages.Add
                 MessageBox.Show("Проверьте введёное наименование на корректность. \n Допускаются только буквы.");
                 return;
             }
-            if (!Regex.IsMatch(reservationdatetime.Text, @"^[а-яА-Я0-9\s]+$"))
+            if (!Regex.IsMatch(reservationdatetime.Text, @"^([01]?[0-9]|2[0-3]):[0-5][0-9] - ([01]?[0-9]|2[0-3]):[0-5][0-9]$"))
             {
-                MessageBox.Show("Проверьте введённый адрес на корректность. \n Допускаются только буквы и цифры.");
+                MessageBox.Show("Проверьте введённую дату на корректность. \n Допускаются только цифры.");
                 return;
             }
             if (rentalToUpdate.Id != 0)

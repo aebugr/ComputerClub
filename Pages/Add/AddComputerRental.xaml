@@ -17,6 +17,6 @@
         <TextBox x:Name="reservationdatetime" HorizontalAlignment="Center" Margin="0,185,0,0" VerticalAlignment="Top" Width="364" Height="40"/>
         <Button Content="Добавить" x:Name="addBtn" Click="InsertClick" Background="#FFE87575" Foreground="White" FontSize="15" HorizontalAlignment="Center" VerticalAlignment="Top" Height="42" Width="364" Margin="0,238,0,0"/>
         <Button Content="Вернуться" Click="BackClick" Background="#FFE87575" Foreground="White" FontSize="15" HorizontalAlignment="Center" Margin="0,295,0,0" VerticalAlignment="Top" Height="41" Width="364"/>
-        <Label Content="*Формат ввода - yyyy.mm.dd HH:MM" FontSize="12" HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="#FFE87575" Margin="0,154,0,0"/>
+        <Label Content="*Формат ввода - yyyy-MM-dd hh:mm:ss" FontSize="12" HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="#FFE87575" Margin="0,154,0,0"/>
     </Grid>
 </Page>

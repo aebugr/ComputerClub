@@ -43,5 +43,6 @@ namespace ComputerClubBugrina.Classes.Data
             string deleteRentalQuery = $"DELETE FROM rental WHERE id = {rentalId}";
             connection.ExecuteQuery(deleteRentalQuery);
         }
+
     }
 }
